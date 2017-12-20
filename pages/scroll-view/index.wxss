@@ -1,0 +1,36 @@
+#green{
+  background: green;
+}
+#red{
+  background: red;
+}
+#yellow{
+  background: yellow;
+}
+#blue{
+  background:  blue;
+}
+
+.btn-area{
+  display: flex;
+  flex-direction: column;
+}
+button{
+width:90%;
+margin-bottom:10px;
+
+}
+.scroll-view-item{
+  height: 100px;
+}
+
+.scroll-view_H{
+  display: flex;
+  flex-flow: row nowrap;
+  height: 300px;
+}
+
+.scroll-view-item_H{
+  width:100px;
+  height: 100%;
+}

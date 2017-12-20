@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+  <block>
+    <text wx:if="{{isBottom}}" bindtap="bindtap1">到底了 {{count}}</text>
+    <navigator url="/pages/index/index" open-type="reLaunch">Home</navigator>
+    <navigator url="/pages/swiper/index">pages/swiper/index</navigator>
+  
+  </block>
+</view>
